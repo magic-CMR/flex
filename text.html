@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  body{
+    margin: 0;
+      width: 500px;
+  }
+
+  .box.first{
+    background-color: #e91e63;
+    flex-grow: 2;
+  }
+  .box.second{
+    background-color: #673ab7;
+    flex-grow: 1;
+  }
+  .box.third{
+    background-color: #00bcd4;
+  }
+  .box.fourth{
+    background-color: #795548;
+  }
+  .box.fifth{
+    background-color: #4caf50;
+  }
+  .box.sixth{
+    background-color: #2196f3;
+  }
+  .box.seventh{
+    background-color: #ffc107;
+  }
+  .box.eighth{
+    background-color: #009688;
+  }
+  .box.ninth{
+    background-color: #607d8b;
+  }
+  .daima{
+    /*display: flex;
+    flex-wrap: wrap;*/
+    /*是否换行*/
+    /*justify-content: space-around;
+    justify-content: space-between;*/
+    /*子元素之间是否间隔*/
+    /*flex-direction: column;*/
+    /*垂直*/
+    /*flex:1;*/
+    /*按比例进行分配*/
+    /*flex-basis: 100px;*/
+    /*设置基础值*/
+    /*flex-grow: 0;*/
+    /*比例拉长*/
+    /*flex-shrink: 0;*/
+    /*= 0 不允许压缩*/
+    /*设置压缩*/
+    /*flex: 2 0 300;*/
+    /*2 : grow 0 : shrink 300 : basis*/
+  }
+  .box{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+
+  }
+  .parent{
+    border: 2px solid goldenrod;
+    display: flex;
+
+  }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="box first">first</div>
+    <div class="box second">second</div>
+    <div class="box third">third</div>
+    <div class="box fourth">fourth</div>
+    <div class="box fifth">fifth</div>
+    <div class="box sixth">sixth</div>
+    <div class="box seventh">seventh</div>
+    <div class="box eighth">eighth</div>
+    <div class="box ninth">ninth</div>
+  </div>
+</body>
+</html>
